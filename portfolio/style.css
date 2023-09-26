@@ -395,14 +395,12 @@ body{
     animation: animate 1s;
 }
 
-/* CSS for the initial state of the animated elements */
 .animate-element {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
 }
   
-  /* CSS for the animated state of the elements when they appear */
 .animate-element.active {
     opacity: 1;
     transform: translateY(0);
@@ -474,7 +472,7 @@ body{
     right: 430px;
 }
 
-/*fromnet*/
+
 .detail {
 	flex: 1 0 0;
 	padding: 1rem;
@@ -529,7 +527,7 @@ body{
 	letter-spacing: 1.5px;
 }
 
-/* time line block in education section */
+
 .timeline-block {
 	position: relative;
 	padding-left: 30px;
@@ -589,7 +587,7 @@ body{
     }
 }
 
-#scrollToTopBtn { /* Hide the button by default */
+#scrollToTopBtn { 
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -683,7 +681,7 @@ body{
 }
 
 .contactbox h2 {
-    font-size: 24px; /* Adjust as needed */
+    font-size: 24px;
     font-weight: bold;
     margin: 0;
 }
@@ -706,12 +704,12 @@ body{
     color: rgb(255, 0, 102);
 }
 .contactbox .contact-text p {
-    font-size: 18px; /* Adjust as needed */
+    font-size: 18px; 
     margin: 0;
     margin-top: 10px;
 }
 .contactbox input[type="text"] {
-    flex: 1; /* Allows the input fields to share the available space equally */
+    flex: 1; 
     padding: 10px;
     border: none;
     background-color: transparent;
